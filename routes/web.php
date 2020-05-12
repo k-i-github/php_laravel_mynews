@@ -19,6 +19,13 @@ Route::get('/', function () {
 Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
     Route::get('news/create', 'Admin\NewsController@add');
     Route::post('news/create', 'Admin\NewsController@create');
+    
+    // Larabel_15
+    Route::get('news', 'Admin\NewsController@index'); //15 追記
+    // Laravel_16
+    Route::get('news/edit', 'Admin\NewsController@edit'); //16 追記
+    Route::post('news/edit', 'Admin\NewsController@update'); // 16 追記
+    Route::get('news/delete', 'Admin\NewsController@delete'); // 16削除用
 });
 
 
