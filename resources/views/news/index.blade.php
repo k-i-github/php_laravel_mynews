@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('contenr')
+@section('content')
     <div class="container">
         <hr color="#c0c0c0">
         @if (!is_null($headline))

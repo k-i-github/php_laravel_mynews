@@ -15,4 +15,6 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .sass('resources/sass/admin.scss', 'public/css')
     .sass('resources/sass/profile.scss', 'public/css')
-    .sass('resources/sass/front.scss', 'public/css'); // 追記 Laravel_18
+    .sass('resources/sass/front.scss', 'public/css') // 追記 Laravel_18
+    .sass('resources/sass/ProfileFront.scss', 'public/css') // Laravel_18 課題
+    
