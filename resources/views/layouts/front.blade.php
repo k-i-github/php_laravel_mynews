@@ -27,6 +27,7 @@
         <link href="{{ asset('css/front.css') }}" rel="stylesheet">
     </head>
     <body>
+        <p>hroku デプロイ</p>
         <div id="app">
             {{-- 画面上部に表示するナビゲーションバーです。 --}}
             <nav class="navbar navbar-expand-md navbar-dark navbar-laravel">
